@@ -34,7 +34,16 @@
         </div>
     </div>
 </div>
+<?php
+if ($this->config->item('is_dev')) {
+    ?>
+<div class="well span12">
+    개발환경 수정중 입니다.
+</div>
+<?php
+}
+?>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row-fluid">
